@@ -39,7 +39,7 @@ function play(q,a){
 }
 for(var i=0;i<l;i++){
     var cquestion=qlist[i]
-    play(qlist.q,qlist.a)
+    play(cquestion.q,cquestion.a)
 }
 if(score===l){
     console.log("you entered evrything right.you know me very well")
